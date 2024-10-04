@@ -1,0 +1,1 @@
+SELECT * FROM "Devices" d where d."ownerId" = {{appsmith.store.accountId}}

@@ -1,0 +1,9 @@
+SELECT a."id",a."name", a."createdAt" 
+
+FROM "Accounts" a 
+
+WHERE 1=1 AND
+({{Reseller.selectedOptionValue ? `a."parentId" = ${Reseller.selectedOptionValue}` : '1=1'}})
+  AND ({{DatePicker1.selectedDate ? `a."createdAt" > '${DatePicker1.selectedDate}'` : '/*DatePicker Boş*/ 1=1'}})
+  
+;

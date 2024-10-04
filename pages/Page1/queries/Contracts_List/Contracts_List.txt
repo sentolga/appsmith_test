@@ -1,0 +1,1 @@
+SELECT * FROM "Contracts" Where "ownerId"={{Reseller.selectedOptionValue}} ;

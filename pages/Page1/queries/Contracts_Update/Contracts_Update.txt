@@ -1,0 +1,3 @@
+UPDATE "Contracts" 
+SET notes =  {{ Table2.selectedRow.notes }}
+WHERE id = {{ Table2.selectedRow.id }}

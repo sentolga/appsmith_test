@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 12,
   "boxShadow": "none",
-  "defaultText": "v12-pro.21",
+  "defaultText": "v12-pro.211",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {
@@ -27,7 +27,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "3g2ysgtxk9",
-  "label": "asdasdadasd",
+  "label": "asdasdadasdwww",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
